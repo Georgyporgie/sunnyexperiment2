@@ -47,15 +47,19 @@ src:url(arialbi.ttf);
 
  
 
- 
 .track-name {
-display: none;
+  z-index: 0; padding: 12px 15px 12px 15px; 
+margin-bottom: 9px;background:linear-gradient(90deg,#CCCCCC,#d6d6d6,#e0e0e0); font-family: myMuss;border: solid 1px black; border-radius:5px;font-size:30px; color: #FF0000;
+
+font-weight:300;
 
  
  }
  
 .track-artist {
-display: none;
+  z-index: 0; padding: 12px 15px 12px 15px ; background:linear-gradient(90deg,#CCCCCC,#d6d6d6,#e0e0e0);border: solid 1px black;  margin-top: -11px;  font-family: myMuss; border-radius:5px; font-size:30px;font-weight:300;
+
+color: #FF0000;
 
 
 
@@ -99,7 +103,11 @@ display: none;
  
 /* Define the slider width so that it scales properly */
 .slider_container {
-display:none;
+  width: 75%;
+  max-width: 400px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
 }
  
 /* Modify the appearance of the slider */
@@ -817,8 +825,7 @@ filter:opacity(75%);
 #virtua  {    width: 210px;  height: 115px;filter: brightness(110%) saturate(110%) contrast(100%) opacity(100%);  z-index: -200; display: block; margin: auto auto auto auto; 
 }
 
-#medio  {  height:23px; width: 45px; border: solid 1px white;
-
+#medio  {  height:23px; width: 45px; 
 }
 
 
@@ -950,22 +957,6 @@ color: lightblue;
 
 
 
-
-#track-list {
-  animation: blinkingAnimation 1s infinite;
-}
-
-@keyframes blinkingAnimation {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
 
 
