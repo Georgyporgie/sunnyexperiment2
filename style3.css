@@ -939,7 +939,7 @@ color: lightblue;
 
 
 
-.blinking {
+//.blink {
   animation: blink 2s infinite ease-in-out, pulse 1.5s infinite ease-in-out;
   background: linear-gradient(90deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1);
   background-size: 300% 300%;
@@ -967,7 +967,11 @@ color: lightblue;
 
 
 
-
+.blinking {
+  animation: blink 2s infinite ease-in-out, pulse 1.5s infinite ease-in-out;
+  background: linear-gradient(45deg, yellow, #006666, #003399);
+  background-size: 200% 200%;
+}
 
 
 
