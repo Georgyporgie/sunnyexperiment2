@@ -2072,7 +2072,7 @@ function playpauseTrack() {
   isPlaying = true;
  
   // Replace icon with the pause icon
-  playpause_btn.innerHTML = '<img id= "med"  src="images/pause button66.gif">';
+  playpause_btn.innerHTML = '<img id= "med"  src="images/pause66.gif">';
 }
 
 
